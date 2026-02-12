@@ -62,6 +62,22 @@ export default function Home() {
           spread={300}
         />
       </div>
+
+      {/* Bottom-right BeeBea logo link */}
+      <a
+        href="https://beebea.xyz"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute bottom-4 right-4 z-20 sm:bottom-6 sm:right-6 md:bottom-8 md:right-8"
+      >
+        <Image
+          src="/beebea_logo_company_name.png"
+          alt="BeeBea"
+          width={160}
+          height={40}
+          className="w-20 sm:w-24 md:w-32 lg:w-40 drop-shadow-[0_0_10px_rgba(0,0,0,0.15)]"
+        />
+      </a>
     </div>
   );
 }
