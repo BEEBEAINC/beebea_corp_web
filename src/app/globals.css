@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Jura:wght@300..700&family=Megrim&family=Offside&family=Syncopate:wght@400;700&family=Zen+Dots&display=swap");
+@import "tailwindcss";
+
+:root {
+  --color-cerulean: #197c98;
+  --color-graphite: #303030;
+  --color-yellow: #f2fb00;
+  --color-sky-blue-light: #84bac6;
+  --color-malachite: #5fd35b;
+
+  --color-primary: #197C98;
+  --color-secondary: #84BAC6;
+
+  --color-foreground: var(--color-graphite);
+  --color-background: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Google Fonts as Tailwind tokens: font-audiowide, font-jura, etc. */
+  --font-audiowide: "Audiowide", sans-serif;
+  --font-jura: "Jura", sans-serif;
+  --font-megrim: "Megrim", system-ui;
+  --font-offside: "Offside", sans-serif;
+  --font-syncopate: "Syncopate", sans-serif;
+  --font-zen-dots: "Zen Dots", sans-serif;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
