@@ -73,8 +73,6 @@ export default function Home() {
         <Image
           src="/beebea_logo_company_name.png"
           alt="BeeBea"
-          width={160}
-          height={40}
           className="w-20 sm:w-24 md:w-32 lg:w-40 drop-shadow-[0_0_10px_rgba(0,0,0,0.15)]"
         />
       </a>
