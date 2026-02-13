@@ -49,7 +49,7 @@ export default function Home() {
           src="/CosRwa_Logo.svg"
           alt="CosRwa Protocol"
           priority
-          className="w-[min(500px,80vw)] drop-shadow-[0_0_40px_rgba(95,211,91,0.3)]"
+         
         />
         <ShinyText
           text="Digital Licensing & Compliance"
