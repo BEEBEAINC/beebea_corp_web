@@ -46,7 +46,7 @@ export default function Home() {
       {/* Logo centered */}
       <div className="pointer-events-none relative z-10 flex min-h-screen flex-col items-center justify-center">
         <Image
-          src="/CosRwa_Logo.svg"
+          src="/CosRwa_Logo.webp"
           alt="CosRwa Protocol"
           width={500}
           height={171}
@@ -71,7 +71,7 @@ export default function Home() {
         className="absolute bottom-4 right-4 z-20 sm:bottom-6 sm:right-6 md:bottom-8 md:right-8"
       >
         <Image
-          src="/beebea_logo_company_name.png"
+          src="/beebea_logo_company_name.webp"
           alt="BeeBea"
           width={160}
           height={40}
