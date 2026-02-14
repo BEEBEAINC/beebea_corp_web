@@ -48,10 +48,8 @@ export default function Home() {
         <Image
           src="/CosRwa_Logo.webp"
           alt="CosRwa Protocol"
-          width={500}
-          height={171}
           priority
-          className="w-[min(500px,80vw)] drop-shadow-[0_0_40px_rgba(95,211,91,0.3)]"
+         
         />
         <ShinyText
           text="Digital Licensing & Compliance"
@@ -73,8 +71,6 @@ export default function Home() {
         <Image
           src="/beebea_logo_company_name.webp"
           alt="BeeBea"
-          width={160}
-          height={40}
           className="w-20 sm:w-24 md:w-32 lg:w-40 drop-shadow-[0_0_10px_rgba(0,0,0,0.15)]"
         />
       </a>
